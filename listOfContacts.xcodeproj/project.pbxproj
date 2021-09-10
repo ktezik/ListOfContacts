@@ -56,15 +56,47 @@
 		F445D95F26EBA7C40005B419 /* listOfContacts */ = {
 			isa = PBXGroup;
 			children = (
-				F445D96026EBA7C40005B419 /* AppDelegate.swift */,
-				F445D96226EBA7C40005B419 /* SceneDelegate.swift */,
-				F445D96426EBA7C40005B419 /* ViewController.swift */,
-				F445D96626EBA7C40005B419 /* Main.storyboard */,
-				F445D96926EBA7C60005B419 /* Assets.xcassets */,
-				F445D96B26EBA7C60005B419 /* LaunchScreen.storyboard */,
-				F445D96E26EBA7C60005B419 /* Info.plist */,
+				F445D97726EBB0F40005B419 /* App */,
+				F445D97626EBB0DA0005B419 /* ViewControllers */,
+				F445D97526EBB0CB0005B419 /* Storyboards */,
+				F445D97426EBB08D0005B419 /* Data */,
 			);
 			path = listOfContacts;
+			sourceTree = "<group>";
+		};
+		F445D97426EBB08D0005B419 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F445D96926EBA7C60005B419 /* Assets.xcassets */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F445D97526EBB0CB0005B419 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F445D96626EBA7C40005B419 /* Main.storyboard */,
+				F445D96B26EBA7C60005B419 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F445D97626EBB0DA0005B419 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F445D96426EBA7C40005B419 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F445D97726EBB0F40005B419 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F445D96026EBA7C40005B419 /* AppDelegate.swift */,
+				F445D96226EBA7C40005B419 /* SceneDelegate.swift */,
+				F445D96E26EBA7C60005B419 /* Info.plist */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +320,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z88UC283VS;
-				INFOPLIST_FILE = listOfContacts/Info.plist;
+				INFOPLIST_FILE = listOfContacts/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +328,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Ivan.Grishin.listOfContacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,7 +339,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z88UC283VS;
-				INFOPLIST_FILE = listOfContacts/Info.plist;
+				INFOPLIST_FILE = listOfContacts/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +347,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Ivan.Grishin.listOfContacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
