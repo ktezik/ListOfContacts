@@ -17,6 +17,7 @@
 		F445D97E26EBB24E0005B419 /* PersonsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F445D97D26EBB24E0005B419 /* PersonsListViewController.swift */; };
 		F445D98026EBB27E0005B419 /* PersonsListInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F445D97F26EBB27E0005B419 /* PersonsListInfoViewController.swift */; };
 		F445D98226EBB2940005B419 /* PersonsInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F445D98126EBB2940005B419 /* PersonsInfoViewController.swift */; };
+		F4FF89E926EFC15E00DF41F8 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF89E826EFC15E00DF41F8 /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		F445D97D26EBB24E0005B419 /* PersonsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsListViewController.swift; sourceTree = "<group>"; };
 		F445D97F26EBB27E0005B419 /* PersonsListInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsListInfoViewController.swift; sourceTree = "<group>"; };
 		F445D98126EBB2940005B419 /* PersonsInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsInfoViewController.swift; sourceTree = "<group>"; };
+		F4FF89E826EFC15E00DF41F8 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				F445D97D26EBB24E0005B419 /* PersonsListViewController.swift */,
+				F4FF89E826EFC15E00DF41F8 /* TabBarViewController.swift */,
 				F445D97F26EBB27E0005B419 /* PersonsListInfoViewController.swift */,
 				F445D98126EBB2940005B419 /* PersonsInfoViewController.swift */,
 			);
@@ -189,6 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4FF89E926EFC15E00DF41F8 /* TabBarViewController.swift in Sources */,
 				F445D97E26EBB24E0005B419 /* PersonsListViewController.swift in Sources */,
 				F445D97B26EBB17A0005B419 /* DataManager.swift in Sources */,
 				F445D96126EBA7C40005B419 /* AppDelegate.swift in Sources */,

@@ -11,6 +11,10 @@ struct Person {
     let phoneNumber: String
     let email: String
     
+    func fullName() -> String {
+        "\(name) \(surname)"
+    }
+    
     static func getPerson() -> [Person] {
         var persons: [Person] = []
         
@@ -21,12 +25,12 @@ struct Person {
         
         let iterationCount = min(namesShuffled.count, surnamesShuffled.count, phonesShuffled.count, emailsShuffled.count)
         
-        for a in 1..<iterationCount {
+        for shuffled in 1..<iterationCount {
             let person = Person(
-                name: names[a],
-                surname: surnames[a],
-                phoneNumber: phoneNumbers[a],
-                email: emails[a]
+                name: namesShuffled[shuffled],
+                surname: surnamesShuffled[shuffled],
+                phoneNumber: phonesShuffled[shuffled],
+                email: emailsShuffled[shuffled]
             )
             
             persons.append(person)
