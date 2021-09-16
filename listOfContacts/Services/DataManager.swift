@@ -15,12 +15,12 @@ let surnames = [
     "Cook", "Dlinniy", "Korotkiy", "Blinniy", "Galleley"
 ]
 
-let phoneNumbers = [
+let emails = [
     "Kte@zov.com", "Yar@oslaviy.com", "Ar@temiy.com", "Pu@pkin.com", "Gre@chkin.com",
     "Co@ok.com", "Dli@nniy.com", "Kor@otkiy.com", "Bli@nniy.com", "Ga@lleley.com"
 ]
 
-let emails = [
+let phoneNumbers = [
     "555 34 54", "555 23 45", "555 21 99", "555 22 22", "555 13 37",
     "555 14 88", "555 22 28", "555 88 88", "555 67 76", "555 77 77"
 ]

@@ -36,6 +36,13 @@ class PersonsListViewController: UITableViewController {
         return cell
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let indexPath = tableView.indexPathForSelectedRow {
+            let personsInfoVC = segue.destination as! PersonsInfoViewController
+            personsInfoVC.thirdPerson = firstPerson[indexPath.row]
+        }
+    }
+    
 //    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 //        guard let prepare = segue.destination as? UITabBarController else { return }
 //        guard let viewControllers = prepare.viewControllers else { return }

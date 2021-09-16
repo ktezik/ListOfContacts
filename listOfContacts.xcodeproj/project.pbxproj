@@ -55,6 +55,14 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		F407F47826F35ED500336608 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F445D97A26EBB17A0005B419 /* DataManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		F445D95426EBA7C40005B419 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +85,7 @@
 				F445D97626EBB0DA0005B419 /* ViewControllers */,
 				F445D97526EBB0CB0005B419 /* Storyboards */,
 				F445D97C26EBB1800005B419 /* Models */,
+				F407F47826F35ED500336608 /* Services */,
 				F404824426ED3F34000D22D5 /* Resources */,
 				F445D97726EBB0F40005B419 /* App */,
 			);
@@ -117,7 +126,6 @@
 			isa = PBXGroup;
 			children = (
 				F445D97826EBB15B0005B419 /* Persons.swift */,
-				F445D97A26EBB17A0005B419 /* DataManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
